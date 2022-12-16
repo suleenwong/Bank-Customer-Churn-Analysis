@@ -3,7 +3,8 @@
 Churn is defined as a measure of how many customers stop using a product or leave a service.
 
 
-In this study, I aim to analyze a dataset to:
+
+In this study, I aim to analyze a dataset involving bank customers to:
 
 - explore and visualize the factors which lead to bank customer churn
 - train a machine learning model to predict if a bank customer churns or not
@@ -29,7 +30,7 @@ The dataset contains the following columns:
 
 <br>
 
-# Requirements and How to run
+# Requirements and Installation
 
 **Requirements:**
 - pyenv with Python: 3.9.8
@@ -50,7 +51,10 @@ pip install -r requirements.txt
 
 <br>
 
-# About this repo
 
+# About this repo
+- bank_customer_churn_dataset.csv
+- Makefile
+- requirements.txt
 
 
