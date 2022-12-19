@@ -53,10 +53,10 @@ pip install -r requirements.txt
 
 
 # About this repo
-- Makefile
-- requirements.txt
-- bank_customer_churn_dataset.csv
-- churn_prediction_notebook.ipynb
+- [Makefile](Makefile)
+- [requirements.txt](requirements.txt)
+- [bank_customer_churn_dataset.csv](bank_customer_churn_dataset.csv)
+- [churn_prediction_notebook.ipynb](churn_prediction_notebook.ipynb)
 
 <br>
 
