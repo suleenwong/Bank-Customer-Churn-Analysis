@@ -60,7 +60,7 @@ pip install -r requirements.txt
 
 <br>
 
-# Actionable insights
+# Conclusions
 - The customers that have a high balance and a high number of products from the bank are the highest value customers. The "best" customers (high balance, high number of products) are also very likely to churn. Therefore the bank should focus on preventing churn in these group of customers. The customers with zero balance who churn are less critical.
 
 - Even though France has the highest number of customers overall, Germany has the highest number of churners and the largest percentage of its customers that churn. A higher percentage of customers in Germany churn compared to France and Spain. The bank should investigate if there are other competitors within Germany that are offering a better product or better services.
