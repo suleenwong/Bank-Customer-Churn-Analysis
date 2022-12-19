@@ -53,10 +53,11 @@ pip install -r requirements.txt
 
 
 # About this repo
-- [Makefile](Makefile)
-- [requirements.txt](requirements.txt)
-- [bank_customer_churn_dataset.csv](bank_customer_churn_dataset.csv)
-- [churn_prediction_notebook.ipynb](churn_prediction_notebook.ipynb)
+In this repository you will find:
+- [Makefile](Makefile) : file for installation of virtual environment
+- [requirements.txt](requirements.txt) : requirements file for installation
+- [bank_customer_churn_dataset.csv](bank_customer_churn_dataset.csv) : bank customer churn data set
+- [churn_prediction_notebook.ipynb](churn_prediction_notebook.ipynb) : Jupyter notebook wit Exploratory Data Analysis (EDA) and machine learning model implementation for churn prediction
 
 <br>
 
