@@ -10,6 +10,9 @@ In this study, I aim to analyze a dataset involving bank customers to:
 - train a machine learning model to predict if a bank customer churns or not
 - provide actionable insights to the bank to reduce customer churn
 
+Tableau dashboard for bank customer churn insights:
+https://public.tableau.com/app/profile/suleenwong/viz/BankCustomerChurnDashboard_16722474025570/Story
+
 <br>
 
 # About the dataset
