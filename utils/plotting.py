@@ -3,6 +3,29 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import itertools
 
+# Function for formatting subplots
+def plot_subplots(ax, fontsize, xlabel_text, title_text, legend=True):
+    """Format subplots
+
+    Args:
+        ax (object): axis object
+        fontsize (int): font size for axis labels 
+        xlabel_text (str): x-label text
+        title_text (str): title test 
+        legend (bool, optional): Flag for legend. Defaults to True.
+    """
+    plt.xticks(fontsize=fontsize-1)
+    plt.yticks(fontsize=fontsize-1)
+    plt.xlabel(xlabel_text, fontsize=fontsize)
+    plt.ylabel('Percent of customers [%]', fontsize=fontsize)
+    plt.title(title_text)
+    if legend == True:
+        legend_labels, _= ax.get_legend_handles_labels()
+        ax.legend(legend_labels, ['Retained','Churned'], fontsize=fontsize)
+    else:
+        plt.legend([],[], frameon=False)
+
+
 # Function to plot confusion matrix
 def plot_confusion_matrix(cm, classes,
                           title='Confusion matrix',
@@ -34,3 +57,4 @@ def plot_confusion_matrix(cm, classes,
     plt.tight_layout()
     plt.ylabel('True label')
     plt.xlabel('Predicted label')
+    
